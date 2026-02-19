@@ -30,7 +30,7 @@ main, header, footer {
 
 /* Profile Image */
 .profile-pic {
-    width: 180px;
+    width: 150px;
     height: auto;
     border-radius: 10px; /* or 50% for circle */
 }
