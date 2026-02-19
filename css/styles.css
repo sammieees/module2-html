@@ -29,12 +29,12 @@ main, header, footer {
 }
 
 /* Profile Image */
-.profile {
-    width: 120px;
-    border-radius: 50%;
-    display: block;
-    margin: 10px auto;
+.profile-pic {
+    width: 180px;
+    height: auto;
+    border-radius: 10px; /* or 50% for circle */
 }
+
 
 /* Styled Links */
 a {
