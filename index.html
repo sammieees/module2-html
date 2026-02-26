@@ -100,3 +100,27 @@
 
 <footer>
     <p>&copy; 2026 Samantha Nicole Bogo. All rights reserved.</p>
+</footer>
+
+<script>
+    // Toggle dark/light theme
+    const themeToggleBtn = document.getElementById('themeToggle');
+    const body = document.body;
+
+    themeToggleBtn.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+    });
+
+    // Show / hide skills section
+    const toggleSkillsBtn = document.getElementById('toggleSkills');
+    const skillsSection = document.getElementById('skillsSection');
+
+    toggleSkillsBtn.addEventListener('click', () => {
+        const isHidden = skillsSection.style.display === 'none';
+        skillsSection.style.display = isHidden ? 'block' : 'none';
+        toggleSkillsBtn.textContent = isHidden ? 'Hide Skills' : 'Show Skills';
+    });
+</script>
+
+</body>
+</html>
