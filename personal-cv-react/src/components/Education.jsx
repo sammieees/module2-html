@@ -18,7 +18,7 @@ function Education() {
           </tr>
           <tr>
             <td>Senior High School</td>
-            <td>Immaculate Academyof Duero Bohol, Inc. </td>
+            <td>Immaculate Academy of Duero Bohol, Inc.</td>
             <td>2023</td>
           </tr>
           <tr>
