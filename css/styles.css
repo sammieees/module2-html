@@ -111,3 +111,10 @@ body.dark-mode th {
 body.dark-mode a {
     color: #93c5fd;
 }
+/* Toggle Button Placement */
+.toggle-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
