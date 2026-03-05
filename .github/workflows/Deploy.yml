@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main   # deploy whenever you push to main
 
 jobs:
   build:
@@ -19,12 +19,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: personal-cv-react
 
       - name: Build project
         run: npm run build
+        working-directory: personal-cv-react
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: personal-cv-react/dist
