@@ -10,14 +10,10 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark-mode' : ''}>
-      <Header />
-      
-      {/* Toggle button container */}
-      <div className="toggle-container">
-        <button onClick={() => setDarkMode(!darkMode)}>
-          Toggle Dark Mode
-        </button>
-      </div>
+      <Header
+        darkMode={darkMode}
+        onToggleDarkMode={() => setDarkMode(!darkMode)}
+      />
 
       <main>
         <About />

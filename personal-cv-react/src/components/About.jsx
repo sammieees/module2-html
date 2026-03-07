@@ -2,7 +2,11 @@ function About() {
   return (
     <section>
       <h2>About Me</h2>
-      <img src="/images/photo.jpg" alt="Profile photo" className="profile-pic" />
+      <img
+        src="/images/photo.jpg"
+        alt="Profile photo"
+        className="profile-pic"
+      />
       <p>
         Hi! I'm Samantha Nicole Bogo. I'm an IT student who enjoys learning new things and improving skills.
       </p>
