@@ -3,7 +3,7 @@ function About() {
     <section>
       <h2>About Me</h2>
       <img
-        src="/images/photo.jpg"
+        src="/images/photo.JPG"
         alt="Profile photo"
         className="profile-pic"
       />
